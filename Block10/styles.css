@@ -44,6 +44,35 @@ main {
   color: #ffd700;
   text-decoration: underline;
 }
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 1em;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #00bfff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007acc;
+}
+
 footer a {
   margin: 0 10px;
   color: lightgrey;
