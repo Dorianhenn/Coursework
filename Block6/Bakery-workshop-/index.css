@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.brand {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: rgb(112, 20, 20);
+  font-weight: bold;
+}
+
+nav {
+  margin-left: auto;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  margin-left: 20px;
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
+
+aside {
+  width: 180px;
+  padding: 10px;
+}
+
+aside li {
+  background-color: #cc0000;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  list-style: none;
+  border-radius: 5px;
+}
+
+article {
+  flex: 1;
+  padding: 20px;
+}
+
+.testimonial {
+  background-color: #eee;
+  padding: 15px;
+  border-left: 5px solid rgb(112, 20, 20);
+  margin: 20px 0;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
